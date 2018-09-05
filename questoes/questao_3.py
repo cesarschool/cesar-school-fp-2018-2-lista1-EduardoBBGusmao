@@ -10,8 +10,16 @@
 # Para a correta execução do programa, a estrutura atual deve ser mantida,
 # substituindo apenas o comando print(questão...) existente.
 ##
+import math
 def main():
     print("questao 3")
+    
+
+    raio = float(input("Digite o raio de uma circunferência:\n"))
+
+    area = math.pi*raio**2
+    comprimento = math.pi*2*raio
+    print("Essa circunferência tem raio: ", raio, "\nDiametro: ", raio*2, "\nÁrea: ", area, "\nComprimento: ", comprimento)
 
 
     
