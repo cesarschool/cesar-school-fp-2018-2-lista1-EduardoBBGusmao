@@ -13,7 +13,11 @@
 def main():
     print("questao 2")
 
+    TempC = float(input("Qual a temperatura em Celsius\n"))
 
+    TempF = float(TempC*(9/5) + 32)
+
+    print(TempF) 
 
 if __name__ == '__main__':
     main()
